@@ -125,3 +125,126 @@ h3 { font-size: 1.65rem; margin-bottom: 12px; }
   .footer-wrap { flex-direction:column; }
   .portrait-tag { left:12px; right:12px; bottom:12px; }
 }
+/* Recognition & Media Gallery */
+
+.recognition-heading {
+  max-width: 760px;
+  margin-bottom: 42px;
+}
+
+.recognition-copy {
+  color: var(--muted);
+  max-width: 680px;
+  font-size: 1.05rem;
+}
+
+.recognition-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.recognition-card {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 12px 32px rgba(0,0,0,.05);
+  display: flex;
+  flex-direction: column;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.recognition-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 42px rgba(0,0,0,.09);
+}
+
+.recognition-card > img,
+.recognition-card > a > img {
+  width: 100%;
+  height: 280px;
+  object-fit: contain;
+  background: #f1eee8;
+  padding: 12px;
+}
+
+.recognition-card > a {
+  display: block;
+  text-decoration: none;
+}
+
+.recognition-card-copy {
+  padding: 24px;
+  flex: 1;
+}
+
+.recognition-card-copy span {
+  display: block;
+  color: var(--gold-dark);
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  font-size: .7rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.recognition-card-copy h3 {
+  font-size: 1.45rem;
+  margin-bottom: 10px;
+}
+
+.recognition-card-copy p {
+  color: var(--muted);
+  margin: 0;
+  font-size: .94rem;
+}
+
+.recognition-link {
+  display: inline-block;
+  margin-top: 18px;
+  color: var(--gold-dark);
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 1px solid var(--gold);
+}
+
+.recognition-link:hover {
+  color: var(--ink);
+}
+
+.recognition-card-featured {
+  grid-column: span 2;
+}
+
+.recognition-card-featured > a > img {
+  height: 340px;
+}
+
+@media (max-width: 900px) {
+  .recognition-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .recognition-card-featured {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .recognition-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .recognition-card-featured {
+    grid-column: auto;
+  }
+
+  .recognition-card > img,
+  .recognition-card > a > img,
+  .recognition-card-featured > a > img {
+    height: auto;
+    max-height: 360px;
+    object-fit: contain;
+  }
+}
