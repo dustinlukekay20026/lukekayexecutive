@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
   <url>
     <loc>https://lukekayexecutive.com/</loc>
@@ -37,8 +38,45 @@
     <loc>https://lukekayexecutive.com/contact.html</loc>
   </url>
 
-  <url>
-    <loc>https://lukekayexecutive.com/professional-photos.html</loc>
-  </url>
+<url>
+  <loc>https://lukekayexecutive.com/professional-photos.html</loc>
+
+  <image:image>
+    <image:loc>https://lukekayexecutive.com/images/dustin-luke-kay-executive-headshot.png</image:loc>
+  </image:image>
+
+  <image:image>
+    <image:loc>https://lukekayexecutive.com/images/dustin-luke-kay-us-navy.jpg</image:loc>
+  </image:image>
+
+  <image:image>
+    <image:loc>https://lukekayexecutive.com/images/dustin-luke-kay-us-navy-sailor-of-the-quarter-1999.png</image:loc>
+  </image:image>
+
+  <image:image>
+    <image:loc>https://lukekayexecutive.com/images/dustin-luke-kay-top-recruiter-of-the-year-2012.jpg</image:loc>
+  </image:image>
+
+  <image:image>
+    <image:loc>https://lukekayexecutive.com/images/dustin-luke-kay-2008-territory-king-recruiting-award.jpg</image:loc>
+  </image:image>
+
+  <image:image>
+    <image:loc>https://lukekayexecutive.com/images/dustin-luke-kay-accenture-recruiting-spotlight-2015.jpg</image:loc>
+  </image:image>
+
+  <image:image>
+    <image:loc>https://lukekayexecutive.com/images/dustin-luke-kay-us-army-freedom-team-salute-commendation.jpg</image:loc>
+  </image:image>
+
+  <image:image>
+    <image:loc>https://lukekayexecutive.com/images/dustin-luke-kay-us-navy-denison-newspaper-article.png</image:loc>
+  </image:image>
+
+  <image:image>
+    <image:loc>https://lukekayexecutive.com/images/dustin-luke-kay-kxii-community-service.png</image:loc>
+  </image:image>
+
+</url>
 
 </urlset>
