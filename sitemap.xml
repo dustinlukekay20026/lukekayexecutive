@@ -33,8 +33,12 @@
     <loc>https://lukekayexecutive.com/media.html</loc>
   </url>
 
-  <url>
+    <url>
     <loc>https://lukekayexecutive.com/contact.html</loc>
+  </url>
+
+  <url>
+    <loc>https://lukekayexecutive.com/professional-photos.html</loc>
   </url>
 
 </urlset>
