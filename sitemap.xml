@@ -27,9 +27,16 @@
   </url>
 
   <url>
-    <loc>https://lukekayexecutive.com/community-service.html</loc>
-  </url>
+  <loc>https://lukekayexecutive.com/community-service.html</loc>
 
+  <image:image>
+    <image:loc>https://lukekayexecutive.com/images/dustin-luke-kay-family-homeless-outreach-community-service.jpg</image:loc>
+  </image:image>
+
+  <image:image>
+    <image:loc>https://lukekayexecutive.com/images/dustin-luke-kay-kxii-community-service.png</image:loc>
+  </image:image>
+</url>
   <url>
     <loc>https://lukekayexecutive.com/media.html</loc>
   </url>
